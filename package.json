@@ -15,7 +15,7 @@
     "invalidation"
   ],
   "bin": {
-    "aws-cf-invalidate": "./index.js"
+    "aws-cf-invalidate": "./bin/aws-cf-invalidate.js"
   },
   "author": "Raghuvir Kasturi <raghuvir.kasturi@gmail.com> (http://raghuvirkasturi.com)",
   "license": "MIT",
