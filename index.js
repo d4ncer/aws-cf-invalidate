@@ -9,16 +9,16 @@ const [distributionId, ...invalidationPaths] = [...process.argv.slice(2)];
 if (distributionId == null || distributionId.endsWith('help')) {
   console.log(
     `${chalk.bold(
-      'cloudfront-invalidate'
+      'aws-cf-invalidate'
     )}: A tool to invalidate AWS CloudFront distributions`
   );
   console.log(
-    `${chalk.bold('Usage:')} cloudfront-invalidate ${chalk.gray(
+    `${chalk.bold('Usage:')} aws-cf-invalidate ${chalk.gray(
       '<distributionId>'
     )} ${chalk.gray('[path1 path2 path3]')}`
   );
   console.log(
-    `${chalk.bold('Example:')} cloudfront-invalidate E71823NB index.html main.js
+    `${chalk.bold('Example:')} aws-cf-invalidate E71823NB index.html main.js
     `
   );
   console.log(

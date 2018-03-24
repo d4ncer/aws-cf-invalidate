@@ -1,5 +1,5 @@
 {
-  "name": "cloudfront-invalidate",
+  "name": "aws-cf-invalidate",
   "version": "1.0.0",
   "description": "Invalidate a CloudFront distribution",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "prettify": "prettier --write './**/*.js'"
   },
-  "repository": "github:d4ncer/cloudfront-invalidate",
+  "repository": "github:d4ncer/aws-cf-invalidate",
   "keywords": [
     "aws",
     "cloudfront",
@@ -15,7 +15,7 @@
     "invalidation"
   ],
   "bin": {
-    "cf-invalidate": "./index.js"
+    "aws-cf-invalidate": "./index.js"
   },
   "author": "Raghuvir Kasturi <raghuvir.kasturi@gmail.com> (http://raghuvirkasturi.com)",
   "license": "MIT",
