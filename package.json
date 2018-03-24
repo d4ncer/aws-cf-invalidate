@@ -1,6 +1,6 @@
 {
   "name": "aws-cf-invalidate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Invalidate a CloudFront distribution",
   "main": "index.js",
   "scripts": {
